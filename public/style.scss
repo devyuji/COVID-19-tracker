@@ -1,0 +1,91 @@
+$bg : #494ca2;
+$one : #F42850;
+$two : #0941D4;
+$three : #1CB142;
+
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: $bg;
+    font-family: 'Roboto Slab', serif;
+}
+h1 {
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 3px;
+    font-size : 2rem;
+}
+h4 {
+    font-weight: 400;
+    font-size : 1rem;
+}
+.header {
+    color : white;
+    margin-top : 2rem;
+}
+.text{
+	padding: 1.5rem;
+	font-size: 1rem;
+}
+#main {
+	display: flex;
+	flex-direction: column;
+}
+.img {
+	text-align: center;
+}
+.virus_img {
+    width: 15rem;
+    transition: 1s ease-in-out;
+}
+#data {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.card {
+	background-color : $one;
+	text-align: center;
+	min-width: 45vw;
+	white-space: nowrap;
+	padding: 1rem;
+	line-height: 2;
+	margin-bottom: 1rem;
+    text-transform: uppercase;
+    transition: 1s ease-in-out;
+}
+.two {
+    background-color : $two;
+}
+.three {
+    background-color: $three;
+}
+@media (min-width : 750px){
+    #main {
+        flex-direction: row;
+    }
+    .virus_img{
+        width : 20rem;
+    }
+    #data {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .card {
+        margin-top :2rem;
+        min-width : 30vw;
+    }
+    .text {
+        width : 50vw;
+        margin-left : 5rem;
+        h1 {
+            font-size: 3.5rem;
+        }
+        p {
+            font-size: 1.5rem;
+        }
+    }
+}

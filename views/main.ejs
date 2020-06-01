@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/style.css">
+    <title>COVID-19</title>
+</head>
+<body>
+    <header class="header">
+        <section id="main">
+            <div class="text">
+                <h1>covid-19</h1>
+                <p class="about">The virus was first reported in wuhan,Hubel China on 17 November 2019, and on 11 March 2020, the worls health organization(WHO) declare the outbreak a pandemic.</p>
+            </div>
+            <div class="img">
+				<img src="/virus.png" alt='virus' class="virus_img">
+			</div>
+        </section>
+        <section id="data">
+            <div class="card one">
+				<h1><%=ConfirmCase%></h1>
+				<h4>Confirmed cases</h4>
+			</div>
+				<div class="card two">
+				<h1><%=Death%></h1>
+				<h4>death cases</h4>
+            </div>
+            <div class="card three">
+				<h1><%=recovered%></h1>
+				<h4>Recovered</h4>
+			</div>
+        </section>
+    </header>
+</body>
+</html>
