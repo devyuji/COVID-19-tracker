@@ -1,6 +1,6 @@
 # COVID-19-tracker
 
-It will give you the latest number of the COVID-19 Cases all around the world.
+It will give you the updated number of the COVID-19 Cases all around the world.
 
 ![](public/img/Screenshot_2020-06-01%20COVID-19.png)
 
